@@ -21,7 +21,7 @@
     <applicationManager autoExpand="true"/>
 
     <variable name="WAS_INSTALL_ROOT" value="${server.config.dir}"/>
-    <variable name="DERBY_JDBC_DRIVER_PATH" value="${server.config.dir}/lib"/>
+    <!-- <variable name="DERBY_JDBC_DRIVER_PATH" value="${server.config.dir}/lib"/> -->
     <library id="DerbyLib">
         <fileset dir="${server.config.dir}/lib/" includes="derby-*.jar"/>
     </library>
