@@ -25,7 +25,7 @@
     <library id="DerbyLib">
         <fileset dir="${server.config.dir}/lib/" includes="derby-*.jar"/>
     </library>
-
+<!--
     <dataSource jndiName="jdbc/PlantsByWebSphereDataSource">
         <jdbcDriver libraryRef="DerbyLib"/>
         <properties.derby.embedded createDatabase="create" databaseName="memory:PLANTSDB"/>
@@ -34,6 +34,6 @@
         <jdbcDriver libraryRef="DerbyLib"/>
         <properties.derby.embedded createDatabase="create" databaseName="memory:PLANTSDB"/>
     </dataSource>
-    
+    -->
 </server>
 
